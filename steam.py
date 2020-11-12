@@ -89,10 +89,11 @@ def main():
         else:
             break    
     
-    for link in tags_a_all:    # get ids with links
+    for link in tags_a_all:    # get ids with link
         id = link.get('data-ds-appid')
         popup_data(id)
 
 
 if __name__ == "__main__":
     main()
+
